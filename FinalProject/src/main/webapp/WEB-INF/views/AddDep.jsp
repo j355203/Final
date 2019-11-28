@@ -21,7 +21,7 @@
 </head>
 
 <body class="bg10904">
-    <!-- 載入左側導覽列-->
+    <!-- 載入左側導覽列 -->
     <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
         <jsp:include page="LeftNav.jsp" />
     </nav>
