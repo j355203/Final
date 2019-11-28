@@ -1,0 +1,179 @@
+.body {
+    font-family: 微軟正黑體;
+    background-color: #f0f0f0
+}
+
+article {
+    width: 100%;
+    float: left;
+}
+
+.Xsection01 {
+    width: 100%;
+    height:25px;
+    background-color: #c48888;
+    /* 頁首 */
+    margin: 0px;
+}
+
+.Xdiv1 {
+    margin: 0px 0px 0px 85%
+    /* 頁首 */
+}
+
+.Xdiv11 {
+    color: #ffffff;
+    float: left;
+    font-size: 16px;
+    font-weight: bolder;
+    /* 頁首 */
+}
+
+.section01 {
+    width: 100%;
+    height: 40px;
+    background-color: #c48888;
+    /* 頁首 */
+    margin: 0px;
+}
+
+.section02 {
+    width: 100%;
+    height: auto;
+    border-color: #b87070;
+    /* 輪播樣式 */
+}
+
+.div2 {
+    width: 70%;
+    margin: 0px auto;
+    padding: 0px auto;
+    text-align: center;
+    background-color: #c48888;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.section03 {
+    width: 100%;
+    height: auto;
+    /*導覽樣式 */
+}
+
+.menu {
+    width: 100%;
+    overflow: auto;
+    list-style-type: none;
+    /* 去掉點點 */
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.menu li {
+    float: left;
+    width: 25%;
+    border-right: 1px solid #b87070;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2.5em;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.menu li a:hover {
+    color: #984b4b;
+}
+
+.section04 {
+    width: 95%;
+    height: 650px;
+    margin: 40px auto;
+    /* 內文一樣是 */
+}
+
+.div3 {
+    width: 45%;
+    margin: 3% 2% 3% 3%;
+    float: left;
+}
+
+p {
+    color: #7b7b7b;
+    font-weight: bold;
+}
+
+.p1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #c48888;
+    /* 最新課程 最新訊息 */
+}
+
+.p2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    /* 課程標題 */
+}
+
+.div4 {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    /* 訊息區快 */
+}
+
+.div5 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.section05 {
+    width: 100%;
+    height: auto;
+    background-color: #c48888;
+    clear: both;
+    /* 內文二樣是 */
+}
+
+.div6 {
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bolder;
+    text-align: center;
+    /* 底部文字 */
+}
+.div7 {
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    /* 底部文字 */
+}
+.div22{
+    width: 100%;
+    margin: 3%;
+}
+
+.iframe21{
+    width:100%;
+    height:auto;
+    margin: 3%;
+}
+
+.box21{
+    width: 30%;
+    height: auto;
+    float: left;
+     box-shadow:5px 5px 5px  gray;
+     margin: 1%;
+    
+}

@@ -1,0 +1,54 @@
+.div1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    font-family: 微軟正黑體;
+   
+    /* 新增學門 */
+}
+.div2 {
+    width: 40%;
+    height: auto;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    font-family: 微軟正黑體;
+   
+    /* 查詢的div右邊 */
+}
+
+.div3 {
+    width:80%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: 微軟正黑體;
+    /* 每個選項的樣式 */
+}
+
+
+.div4 {
+    width: 98%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: 微軟正黑體;
+    text-align: center;
+    clear:left;
+    /* 送出資料 送出與清除 */
+}
+
+.select01{
+    width:70%;
+    height:28px
+    /* 下拉選單的樣式 */
+}
+.time01{
+    width:50%;
+    height:28px 
+/* 時間的樣式 */
+}
+.tr02 {
+    background-color: #f2e6e6;
+    font-size: 20px;
+    width: 98%;
+    height: 20px;
+    /* 選課的內容行 */
+}

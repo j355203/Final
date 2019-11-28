@@ -1,0 +1,629 @@
+.abgne-yahoo-carousel {
+	width: 80%;
+	height: 230px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	position: relative;
+}
+.abgne-yahoo-carousel * {
+	margin: 0;
+	padding: 0;
+}
+.abgne-yahoo-carousel ul, .abgne-yahoo-carousel li {
+	list-style: none;
+}
+.abgne-yahoo-carousel a img {
+	border: none;
+	width: 198px;
+}
+.abgne-yahoo-carousel h3 {
+	font-size: 18px;
+	height: 30px;
+}
+.abgne-yahoo-carousel .page {
+	position: absolute;
+	top: 12px;
+	right: 80px;
+}
+.abgne-yahoo-carousel .btn {
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	height: 20px;
+}
+.abgne-yahoo-carousel .btn a {
+	width: 31px;
+	height: 24px;
+	float: left;
+	text-indent: -9999px;
+}
+.abgne-yahoo-carousel .btn a.prev {
+	background: url(images/btn.gif) no-repeat 0 -42px;
+}
+.abgne-yahoo-carousel .btn a.next {
+	background: url(images/btn.gif) no-repeat 0 0;
+}
+.abgne-yahoo-carousel .frame {
+	position: relative;
+	overflow: hidden;
+	width: 1000px;	/* (li 的寬度 + li 的邊框寬度 * 2 ) * 一次要顯示的數量 + li 的右邊界 * (一次要顯示的數量 - 1) */
+	height: 500px;
+}
+.abgne-yahoo-carousel ul {
+	width: 99999px;
+	position: absolute;
+}
+.abgne-yahoo-carousel li {
+	float: left;
+	width: 300px;
+	height: auto;
+	 position: relative; 
+	margin-right: 10px;
+	/* border: 1px solid #333; */
+}
+.abgne-yahoo-carousel li .thumb, .abgne-yahoo-carousel li .ovrly, .abgne-yahoo-carousel li h3 {
+	position: absolute;
+}
+.abgne-yahoo-carousel li .ovrly, .abgne-yahoo-carousel li h3 {
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	bottom: 0;
+}
+.abgne-yahoo-carousel li .ovrly {
+	background: #000;
+}
+.abgne-yahoo-carousel li h3 a {
+	color: #fff;
+}
+.abgne-yahoo-carousel li h3 a:hover {
+	color: #f90;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 我的學分、選課紀錄 */
+
+
+.div1 {
+    width: 98%;
+    height: 150px;
+    margin-bottom: 20px;
+    margin: 0px auto;
+
+    font-family: 微軟正黑體;
+   
+    /* 查詢的div左邊 */
+} 
+.div2 {
+
+    width:80%;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    font-family: 微軟正黑體;
+    /* 每個選項的樣式 */
+} 
+.div3 {
+    width: 98%;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-family: 微軟正黑體;
+    text-align: center;
+    clear:left;
+    /* 送出資料 送出與清除 */
+} 
+.tr01{
+     /* background-color:#D2E9FF;#2894FF*/
+     line-height:40px;
+    font-weight:bolder;
+    font-size: 40px;
+    /* 選課紀錄的表頭 */
+    color:black;
+     border-bottom: 5px solid #2894FF;
+      
+}
+
+p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.body {
+    font-family:"微軟正黑體";
+    background-color: white;
+}
+
+article {
+    width: 100%;
+    float: left;
+}
+
+.div0 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.title1 {
+    /* 標籤的格式 <H2>*/
+    padding: 20px 10px 10px 10px;
+    height: 80px;
+    width: 180px;
+    font-weight: bolder;
+    color: black;
+    line-height: 60px;
+    font-size: 36px;
+    font-family: 微軟正黑體;
+    text-shadow: 2px 0px 2px gray;
+}
+
+.title2 {
+    /* 標籤的格式 <H2>*/
+    margin: 10px 0px;
+    height: 40px;
+    width: 112px;
+    /* background-color: #b87070; */
+    color: #4f4f4f;
+    line-height: 40px;
+    font-size: 28px;
+    font-family: 微軟正黑體;
+    margin-left: 50px;
+    clear: left;
+}
+
+.title3 {
+    /* 最上面 開標題*/
+    padding: 20px 10px 10px 10px;
+    height: 80px;
+    width: auto;
+    font-weight: bolder;
+    color: black;
+    line-height: 60px;
+    font-size: 64px;
+    font-family:Microsoft JhengHei;
+    text-shadow: 2px 0px 2px gray;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.section01 {
+    margin-top:30px;
+    width: 90%;
+    height: 400px;
+    border: 1px solid #f0f0f0;
+    background-color: white;
+    margin: 0px 5% 20px 5%;
+    /* box-shadow: 5px 5px 5px gray */
+    /* 新增課程樣式 */
+}
+
+.section02 {
+    width: 90%;
+    height: 450px;
+    border: 1px solid #f0f0f0;
+    background-color: white;
+    margin: 0px 5% 20px 5%;
+    /* box-shadow: 5px 5px 5px gray */
+    /*我的學分 */
+}
+
+.section03 {
+    width: 100%;
+    height: 180px;
+   /* border: 1px solid #f0f0f0; */
+     /*background-color: white;*/
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /*box-shadow: 0px 5px 5px gray*/
+    /*最上面 開頭樣式 */
+}
+
+.bottonspan01 {
+    width: auto;
+    height: 40xp;
+    margin: 10px 0px 10px 30px;
+    float: left;
+    /* 左邊按鈕的空間 */
+}
+
+.bottonspan02 {
+    width: auto;
+    height: 40xp;
+    margin: 10px 30px 10px 0px;
+    float: right;
+    /* 右邊按鈕的空間 */
+}
+
+.bottonstyle01 {
+    /* 最上面按鈕的設計 */
+    width: auto;
+    height: 50px;
+    border: 1px solid 	#2894FF;
+    background-color:	#2894FF;
+    color: #ffffff;
+    font-family: 微軟正黑體;
+    font-size: 24px;
+    border-radius:5px;
+}
+
+.bottonstyle02 {
+    /* 送出 與 清除的按鈕的設計 */
+ width: auto;
+    height: 35px;
+    border: 1px solid #2894FF;
+    background-color: #2894FF;
+    color: #ffffff;
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    border-radius:5px;
+}
+.bottonstyle03 {
+    /* 表格內的按鈕*/
+    width: auto;
+    height: auto;
+    border: 1px solid #2894FF;
+    background-color: #2894FF;
+    color: #ffffff;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    padding: 3px;
+    margin: 8px 2px;
+    border-radius:5px;
+}
+
+.font1 {
+    /* 字體 */
+    font-weight: bolder;
+    width: 100px;
+    text-align: right;
+    float: left;
+    color: #5b5b5b;
+    font-size: 20px;
+}
+.tb1 {
+    /* border: 3px solid #cf9e9e; */
+    width: 95%;
+    border-collapse: collapse;
+    /*border-left: 5px solid 		#2894FF; */
+    text-align: center;
+    line-height: 40px;
+    padding: 0px;
+    margin: 0px auto;
+
+}
+td
+{
+    text-align: center;
+    line-height: 35px;
+    border-bottom: 2px solid 		#84C1FF;
+    /*  border-right: 2px solid 	#97CBFF;*/
+    font-size: 20px;
+ color:black;
+
+}
+
+
+
+
+
+
+
+
+
+.body {
+    font-family: 微軟正黑體;
+    background-color: #f0f0f0
+}
+
+article {
+    width: 100%;
+    float: left;
+}
+
+.Xsection01 {
+    width: 100%;
+    height:25px;
+    background-color: #c48888;
+    /* 頁首 */
+    margin: 0px;
+}
+
+.Xdiv1 {
+    margin: 0px 0px 0px 85%
+    /* 頁首 */
+}
+
+.Xdiv11 {
+    color: #ffffff;
+    float: left;
+    font-size: 16px;
+    font-weight: bolder;
+    /* 頁首 */
+}
+
+.section01 {
+    width: 100%;
+    height: 40px;
+    background-color: #c48888;
+    /* 頁首 */
+    margin: 0px;
+}
+
+.section02 {
+    width: 100%;
+    height: auto;
+    border-color: #b87070;
+    /* 輪播樣式 */
+}
+
+.div2 {
+    width: 70%;
+    margin: 0px auto;
+    padding: 0px auto;
+    text-align: center;
+    background-color: #c48888;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.section03 {
+    width: 100%;
+    height: auto;
+    /*導覽樣式 */
+}
+
+.menu {
+    width: 100%;
+    overflow: auto;
+    list-style-type: none;
+    /* 去掉點點 */
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.menu li {
+    float: left;
+    width: 25%;
+    border-right: 1px solid #b87070;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2.5em;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.menu li a:hover {
+    color: #984b4b;
+}
+
+.section04 {
+    width: 95%;
+    height: 650px;
+    margin: 40px auto;
+    /* 內文一樣是 */
+}
+
+.div3 {
+    width: 45%;
+    margin: 3% 2% 3% 3%;
+    float: left;
+}
+
+p {
+    color: #7b7b7b;
+    font-weight: bold;
+}
+
+.p1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #c48888;
+    /* 最新課程 最新訊息 */
+}
+
+.p2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    /* 課程標題 */
+}
+
+.div4 {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    /* 訊息區快 */
+}
+
+.div5 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.section05 {
+    width: 100%;
+    height: auto;
+    background-color: #c48888;
+    clear: both;
+    /* 內文二樣是 */
+}
+
+.div6 {
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bolder;
+    text-align: center;
+    /* 底部文字 */
+}
+.div7 {
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    /* 底部文字 */
+}
+.div22{
+    width: 100%;
+    margin: 3%;
+}
+
+.iframe21{
+    width:100%;
+    height:auto;
+    margin: 3%;
+}
+
+.box21{
+    width: 30%;
+    height: auto;
+    float: left;
+     box-shadow:5px 5px 5px  gray;
+     margin: 1%;
+    
+}
+
+
+
+
+
+
+
+.body {
+    font-family: 微軟正黑體;
+    background-color: #f0f0f0;
+    margin:0px;
+}
+
+article {
+    width: 100%;
+    float: left;
+}
+
+.Xsection01 {
+    width: 100%;
+    height: 25px;
+    background-color: #c48888;
+    /* 頁首 */
+    margin: 0px;
+}
+
+.Xdiv1 {
+    margin: 0px 0px 0px 85%
+    /* 頁首 */
+}
+
+.Xdiv11 {
+    color: #ffffff;
+    float: left;
+    font-size: 16px;
+    font-weight: bolder;
+    /* 頁首 */
+}
+
+.Xsection02 {
+    width: 100%;
+    height:auto;
+    border-color: #b87070;
+    /* 輪播樣式 */
+ z-index:1;
+}
+
+.Xdiv2 {
+  width: 70%;
+    margin: 0px auto;
+    padding: 0px auto;
+    text-align: center;
+    background-color: #c48888;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.Xsection03 {
+	float:left;
+    width: 100%;
+    height: auto;
+    z-index:2;
+    /*導覽樣式 */
+}
+
+.Xmenu {
+    width: 100%;
+    overflow: auto;
+    list-style-type: none;
+    /* 去掉點點 */
+    margin: 0px ;
+    padding: 0px;
+}
+
+.Xmenu li {
+    float: left;
+    width: 24.85%;
+    border-right: 1px solid #b87070;
+}
+
+.Xmenu li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2.5em;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.Xmenu li a:hover {
+    color: #984b4b;
+}
+
+.section04 {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #f0f0f0;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px gray
+    /*最上面 開頭樣式 */
+}
+
+.section05 {
+    width: 100%;
+    height: auto;
+    background-color: #c48888;
+    clear: both;
+    /* 內文二樣是 */
+}
+
+
+.div6 {
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bolder;
+    text-align: center;
+    /* 底部文字 */
+}

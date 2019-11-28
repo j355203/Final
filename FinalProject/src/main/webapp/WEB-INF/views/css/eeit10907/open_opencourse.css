@@ -1,0 +1,31 @@
+.div1 {
+    /* 新增學門的區塊 */
+    width: 950px;
+    height: 200px;
+    font-family: 微軟正黑體;
+    margin: 0px auto;
+}
+
+.div2 {
+    width: 930pxs;
+    margin-bottom:2%;
+    margin-right: 2%;
+    margin-left: 3%;
+    font-family: 微軟正黑體;
+}/* 每個填入的新增課程區塊 */
+
+.div3 {
+    width: 93%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-family: 微軟正黑體;
+    /* 新增課程的區塊 */
+    
+}
+
+
+
+
+
+

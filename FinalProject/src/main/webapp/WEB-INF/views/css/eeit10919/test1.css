@@ -1,0 +1,80 @@
+
+.container-fluid .row #mainpage {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.container-fluid .row #headArea {
+    height: 100px;
+    font-family: 微軟正黑體;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+}
+
+.container-fluid .row #headArea div {
+    padding: 5px;
+}
+
+.container-fluid .row #serchBar {
+    font-size: 18px;
+    font-family: 微軟正黑體;
+}
+
+.container-fluid .row #bottomArea {
+    height: 50%;
+    position: absolute;
+    top: 25px;
+    right: 0px;
+}
+
+.container-fluid .row #bottomArea img {
+    width: 50px;
+    max-height: 100%;
+}
+
+.container-fluid .row #contentArea {
+    width: 100%;
+    text-align: center;
+}
+
+.container-fluid .row #contentArea table {
+    margin: auto;
+    width: 100%;
+    border-left: 1px solid black;
+    border-collapse: collapse;
+}
+
+.container-fluid .row #contentArea table th {
+    text-align: center;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    border: 1px solid black;
+    width: 13%;
+}
+
+.container-fluid .row #contentArea table .nameArea {
+    width: 20%;
+}
+
+.container-fluid .row #contentArea table tr td {
+    border: 1px solid black;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+}
+
+.container-fluid .row .imgBox {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+
+.container-fluid .row .imgBox img {
+    height: 100%;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 95%;
+}
+    

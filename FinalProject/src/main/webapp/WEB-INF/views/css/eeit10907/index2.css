@@ -1,0 +1,113 @@
+.body {
+    font-family: 微軟正黑體;
+    background-color: #f0f0f0;
+    margin:0px;
+}
+
+article {
+    width: 100%;
+    float: left;
+}
+
+.Xsection01 {
+    width: 100%;
+    height: 25px;
+    background-color: #c48888;
+    /* 頁首 */
+    margin: 0px;
+}
+
+.Xdiv1 {
+    margin: 0px 0px 0px 85%
+    /* 頁首 */
+}
+
+.Xdiv11 {
+    color: #ffffff;
+    float: left;
+    font-size: 16px;
+    font-weight: bolder;
+    /* 頁首 */
+}
+
+.Xsection02 {
+    width: 100%;
+    height:auto;
+    border-color: #b87070;
+    /* 輪播樣式 */
+ z-index:1;
+}
+
+.Xdiv2 {
+  width: 70%;
+    margin: 0px auto;
+    padding: 0px auto;
+    text-align: center;
+    background-color: #c48888;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.Xsection03 {
+	flot:left;
+    width: 100%;
+    height: auto;
+    z-index:2;
+    /*導覽樣式 */
+}
+
+.Xmenu {
+    width: 100%;
+    overflow: auto;
+    list-style-type: none;
+    /* 去掉點點 */
+    margin: 0px ;
+    padding: 0px;
+}
+
+.Xmenu li {
+    float: left;
+    width: 24.85%;
+    border-right: 1px solid #b87070;
+}
+
+.Xmenu li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2.5em;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.Xmenu li a:hover {
+    color: #984b4b;
+}
+
+.section04 {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #f0f0f0;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px gray
+    /*最上面 開頭樣式 */
+}
+
+.section05 {
+    width: 100%;
+    height: auto;
+    background-color:#2894FF;
+    clear: both;
+    /* 內文二樣是 */
+}
+
+
+.div6 {
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bolder;
+    text-align: center;
+    /* 底部文字 */
+}

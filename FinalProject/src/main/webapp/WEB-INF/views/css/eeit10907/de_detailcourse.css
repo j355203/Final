@@ -1,0 +1,39 @@
+/* 我的學分、選課紀錄 */
+
+.div1 {
+    width: 98%;
+    height: 150px;
+    margin-bottom: 20px;
+    margin: 0px auto;
+    font-family: 微軟正黑體;
+    /* 查詢的div左邊 */
+}
+
+.div2 {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    font-family: 微軟正黑體;
+    /* 每個選項的樣式 */
+}
+
+.div3 {
+    width: 98%;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-family: 微軟正黑體;
+    text-align: center;
+    clear: left;
+    /* 送出資料 送出與清除 */
+}
+
+.td {
+    background-color: #B8B8DC;
+    font-weight: bolder;
+    /* 選課紀錄的表頭 */
+}
+
+p {
+    text-align: center;
+}
+}
