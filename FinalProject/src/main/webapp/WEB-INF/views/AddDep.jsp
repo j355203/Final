@@ -28,7 +28,7 @@
     <!-- 載入左側導覽列 -->
 
     <div class="main-content">
-        <!-- 載入上方導覽列   -->
+        <!-- 載入上方導覽列 -->
         <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
             <jsp:include page="HeadNav.jsp" />
         </nav>
